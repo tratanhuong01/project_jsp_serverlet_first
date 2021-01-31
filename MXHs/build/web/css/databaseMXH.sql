@@ -1,0 +1,83 @@
+CREATE DATABASE MXH
+USE MXH
+CREATE TABLE Users (
+	IDUser VARCHAR(20) PRIMARY KEY,
+	Ho NVARCHAR(100),
+	Ten NVARCHAR(100),
+	SoDienThoai CHAR(10),
+	Email VARCHAR(100),
+	PassWords VARCHAR(30),
+	Education NVARCHAR(MAX),
+	Work NVARCHAR(MAX),
+	AddressLocal NVARCHAR(MAX),
+	Gender INT,
+	DateOfBirth DATE,
+	Follow INT,
+	IDImage VARCHAR(20),
+	TimeCreateAccount date,
+)
+CREATE TABLE FriendWithUser (
+	IDUser VARCHAR(20),
+	IDFriend VARCHAR(20),
+	IDRequest VARCHAR(20),
+	IDBlock VARCHAR(20)
+)
+CREATE TABLE POST (
+	IDPOST VARCHAR(20) PRIMARY KEY,
+	IDUser VARCHAR(20) ,
+	Content NVARCHAR(MAX),
+	Feel NVARCHAR(MAX),
+	IDVideo VARCHAR(20),
+	IDImage VARCHAR(20),
+	Mode INT,
+	TimeCreatedPost datetime,
+	Locals NVARCHAR(MAX),
+	IDPersonShared VARCHAR(20),
+	IDLove VARCHAR(20)
+)
+CREATE TABLE RequestFriend (
+	IDUser VARCHAR(20),
+	IDFriendRequest VARCHAR(20),
+	States INT
+)
+CREATE TABLE PassWordChanged (
+	IDUser VARCHAR(20),
+	PassOld VARCHAR(30),
+	PassNew VARCHAR(30),
+	TimeChange DATETIME
+)
+CREATE TABLE Story (
+	IDStory VARCHAR(20) PRIMARY KEY,
+	IDUser VARCHAR(20),
+	IDView VARCHAR(20),
+	IDImageStory VARCHAR(20),
+	IDVideoStory VARCHAR(20)
+)
+CREATE TABLE ImagesUser (
+	IDImage VARCHAR(20) PRIMARY KEY,
+	IDUser VARCHAR(20),
+	LinkImage VARCHAR(MAX),
+	TimeAdded DATETIME,
+	IsAvatar INT
+)
+CREATE TABLE VideoUser (
+	IDVideo VARCHAR(20) PRIMARY KEY,
+	IDUser VARCHAR(20),
+	LinkVideo VARCHAR(MAX),
+	TimeAdded DATETIME
+)
+CREATE TABLE ImageStoryUser (
+	IDImageStory VARCHAR(20) PRIMARY KEY,
+	IDUser VARCHAR(20),
+	LinkImage VARCHAR(MAX),
+	TimeAdded DATETIME
+)
+CREATE TABLE VideoStoryUser (
+	IDVideoStory VARCHAR(20) PRIMARY KEY,
+	IDUser VARCHAR(20),
+	LinkVideo VARCHAR(MAX),
+	TimeAdded DATETIME
+)
+CREATE TABLE AvatarDefault (
+	
+)

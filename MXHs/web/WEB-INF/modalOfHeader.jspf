@@ -1,0 +1,85 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<div id="connectfriend" style="width: 100%;"> 
+    <div id="friend-request-1">
+        <div class="friends-request-top">
+            <span style="float: left;">
+                <b>Lời mời kết bạn</b>
+            </span>
+
+            <span onclick="closeRequestFriend()" style="border-radius: 50%;background-color: #ccc;
+                  padding: 4px 12px;font-size: 25px;font-weight: bold;float: right;
+                  position: relative; top: -9px;margin-left: 15px;">×</span>
+            <span style="float: right;">
+                <a href=""><b>Xem tất cả</b></a>
+            </span>
+        </div>
+        <div class="infor-user-request">
+            <div class="user-request-left">
+                <a href=""><img src="avatar.jpg" alt=""></a>
+            </div>
+            <div class="user-request-right">
+                <div style="width: 100%;">
+                    <span style="float: left;padding-left: 10px;font-weight: bold;">
+                        <a href="">Trà Hưởng</a></span>
+                    <span style="float: right;">2 ngày</span>
+                </div>
+                <div style="width: 100%;display: flex;padding: 10px 0px;font-size: 15px;font-weight: bold;">
+                    <span style="background-color: #1877F2;width: 45%;text-align: center;
+                          height: 40px;line-height: 40px;border-radius: 10px;margin-right: 2.5%;
+                          margin-left: 2.5%;cursor: pointer;">
+                        <a style="color: white;" href="">Xác Nhận</a>
+                    </span>
+                    <span style="background-color: #D8DADF;width: 45%;text-align: center;
+                          height: 40px;line-height: 40px;border-radius: 10px;margin-right: 2.5%;
+                          margin-left: 2.5%;cursor: pointer;">
+                        <a  style="color: black;" href="">Xóa</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <hr style="margin: 10px auto;width: 90%;">
+        <br>
+    </div>
+</div>
+<div id="messenger-facebook" style="width: 100%;"> 
+    <div  id="messenger-gui" >
+        <div class="messenger-gui-top">
+            <span>
+                <b>Messenger</b>
+            </span>
+            <span style="padding-left: 5.5em;">
+                <a href=""><b>Vào Messenger</b></a>
+            </span>
+            <span onclick="closeMessenger()" style="border-radius: 50%;background-color: #ccc;
+                  padding: 4px 12px;font-size: 25px;font-weight: bold;
+                  position: relative; top: -9px;margin-left: 22px;">×</span>
+
+        </div>
+        <div id="messenger-gui-c">
+            <div class="messenger-gui-search">
+                <input type="text" name="" placeholder="Tìm kiếm trên messenger">
+            </div>
+            <div class="infor-user-request">
+                <div class="user-request-left">
+                    <a href=""><img src="avatar.jpg" alt=""></a>
+                </div>
+                <div class="user-request-right">
+                    <div style="width: 100%;">
+                        <span style="float: left;font-weight: bold;">
+                            <a href="">Trà Hưởng</a></span>
+                    </div>
+                    <div style="width: 100%;display: flex;padding: 5px 0px;font-size: 15px;color: #65676B;">
+                        <span>Lên tập hơi kk.</span>
+                    </div>
+                </div>
+
+            </div>
+            <hr style="margin: 10px auto;width: 90%;">
+            <br>
+        </div>
+        <div class="messenger-gui-bottom">
+            <a href=""><b  style="color: blue;">Xem tất cả trong messenger</b></a>
+        </div>
+    </div>
+
+</div>

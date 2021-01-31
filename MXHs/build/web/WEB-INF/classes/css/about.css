@@ -1,0 +1,62 @@
+.info {
+    width: 95%;
+    padding: 0 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.ho input {
+    width: 92%;
+    padding: 15px 4%;
+    border: none;
+    background-color: #D8DADF;
+    border-radius: 30px;
+    margin: 10px 0px;
+}
+.ho {
+    width: 45%;
+    margin: 0 2.5%;
+}
+.max-ho {
+    width: 95%;
+    padding: 0 2.5%;
+}
+
+
+.max-ho input {
+    width: 96%;
+    padding: 15px 2%;
+    border-radius: 30px;
+    border: none;
+    background-color: #D8DADF;
+    margin: 10px 0px;
+}
+.ho-ba {
+    width: 92%;
+    padding: 0 5.5%;
+    display: flex;
+}
+
+.ho-b {
+    width: 30%;
+    margin-right: 3%;
+}
+
+.ho-b input {
+    width: 95%;
+    padding: 15px 2.5%;
+    border-radius: 30px;
+    border: none;
+    margin: 2.5%;
+    background-color: #D8DADF;
+}
+.wrapper-profile {
+    font-weight: bold;
+}
+.ho-b select {
+    width: 32%;
+    padding: 10px 3px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

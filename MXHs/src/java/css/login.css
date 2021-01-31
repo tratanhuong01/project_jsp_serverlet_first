@@ -1,0 +1,227 @@
+* {
+    text-decoration : none;
+    margin: 0;
+    padding : 0;
+    list-style-type: none;
+}
+#close {
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+#web {
+    width: 100%;
+    background-color: #F0F2F5;
+}
+.wrapper {
+    width: 70%;
+    display: flex;
+    padding: 9em 0em;
+    margin: auto;
+}
+.input-login {
+    width: 85%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+.input-login[type="text"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.input-login[type="password"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.login-left {
+    width: 60%;
+    padding: 2em;
+}
+.login-right {
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+#login-right_1 {
+    width: 91%;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+}
+#create-page {
+    width: 100%;
+    text-align: center;
+    padding: 2em 0em;
+}
+#footer {
+    width: 70%;
+    margin: auto;
+}
+.footer-one {
+    list-style-type: none;
+    display: flex;
+}
+.footer-one li {
+    font-size: 14px;
+    padding: 0.5em;
+}
+.footer-one li a {
+    color: #737373;
+}
+.footer-two {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-two li {
+    font-size: 14px;
+    padding: 0.5em;
+}
+.footer-two li a {
+    color: #737373;
+}
+#register {
+    width: 100%;
+
+}
+#form-register {
+    width: 28%;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1em;
+    opacity: 1;
+    background-color: white;
+    z-index: 9999;
+    border: 2px solid #ccc;
+    display: none;
+}
+#form_1 {
+    width: 100%;
+    display: flex;
+}
+.input-forms {
+    padding: 13px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+#form_1 input {
+    width: 46%;
+    margin-right: 2%;
+}
+#form_1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+}
+.form_2 {
+    width: 100%;
+    margin-bottom: 1em;
+}
+#form_3 {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.form_4 {
+    width: 100%;
+}
+.form_2 input {
+    width: 92%;
+}
+.input-forms[type="text"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.input-forms[type="password"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+div#form_3 input {
+    width: 92%;
+}
+.form_4 select {
+    margin-top: 10px;
+    width: 31%;
+    margin-right: 1.4%;
+    padding: 8px;
+}
+.form_4 select option {
+    padding: 8px;
+}
+.radio-button-form {
+    width: 31%;
+    margin-right: 1.4%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.form_4_clone {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.form_5 {
+    width: 100%;
+    margin: 1em 0em;
+}
+#get-account-main {
+    width: 40%;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1em;
+    opacity: 1;
+    background-color: white;
+    z-index: 9999;
+    border: 2px solid #ccc;
+    display: none;
+}
+#get-account {
+    width: 100%;
+}
+#input-getaccount {
+    width: 70%;
+    margin: 1em auto;
+}
+
+#input-getaccount input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0px;
+}
+.btn-search-acc {
+    width: 100%;
+    margin-top: 1em;
+    text-align: right;
+}
+.btn-search-acc button{
+    padding: 10px;
+    background-color: #1877F2;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+#show-gui-getacc {
+    width: 100%;
+    display: none;
+}
+.gui-getacc-left {
+    width: 70%;
+    border-right: 1px solid #ccc;
+}
+.gui-getacc-right {
+    width: 30%;
+    text-align: center;
+    padding-top: 2em;
+}
+.input-choose-get {
+    width: 100%;
+    display: flex;
+    padding: 10px 0px;
+}

@@ -1,0 +1,66 @@
+.friends-top {
+    width: 100%;
+    display: flex;
+    padding: 1em 0em;
+}
+.input-friendss {
+    width: 45%;
+}
+.input-friendss button {
+    width: 34%;
+    padding: 11px 3%;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    background-color: #139DF7;
+}
+
+.input-friendss input {
+    width: 54%;
+    padding: 11px 3%;
+    border-radius: 10px;
+    border: none;
+    background-color: #F0F2F5;
+}
+
+.friends-bottom {
+    width: 100%;
+    display: flex;
+    border: 2px solid #f8f7f7;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.number-mutual-friends {
+    width: 55%;
+    padding: 25px 10px;
+}
+
+.isFriends {
+    width: 22%;
+    padding: 35px 0px;
+}
+.avatar-listgeti {
+    width: 23%;
+}
+
+.avatar-listgeti img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.isFriends a {
+    padding: 10px 13px;
+    background-color: #D8DADF;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.friends-bottom-listgeti {
+    width: 44.2%;
+    margin: 6px;
+    padding: 2%;
+    display: flex;
+    border: 2px solid #f8f7f7;
+    border-radius: 10px;
+}
